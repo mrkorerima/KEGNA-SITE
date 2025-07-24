@@ -10,7 +10,7 @@ Welcome to the official website repository for **Kegna** — Ethiopia's modern a
 
 🔗 [Click here to view Kegna live](https://mrkorerima.github.io/KEGNA-SITE/)
 
-> *(Replace `mrkorerima` with your actual GitHub username)*
+> *(`@mrkorerima`)*
 
 ---
 
