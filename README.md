@@ -8,7 +8,7 @@ Welcome to the official website repository for **Kegna** — Ethiopia's modern a
 
 ## 🌍 Live Site
 
-🔗 [Click here to view Kegna live](https://yourusername.github.io/kegna-site)
+🔗 [Click here to view Kegna live](https://mrkorerima.github.io/KEGNA-SITE/)
 
 > *(Replace `yourusername` with your actual GitHub username)*
 
