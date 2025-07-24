@@ -1,0 +1,165 @@
+/* Global Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  color: #1c1e21;
+  background-color: #ffffff;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Navigation */
+header {
+  background-color: #1877f2; /* Facebook Blue */
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+}
+
+nav li a:hover {
+  opacity: 0.8;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(to right, #1877f2, #0d47a1);
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.cta a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 1rem 1.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: white;
+  color: #1877f2;
+  border: none;
+}
+
+.btn-outline {
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+}
+
+.btn:hover,
+.btn-outline:hover {
+  opacity: 0.9;
+}
+
+/* Sections */
+.section, .section-alt {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.section-alt {
+  background-color: #f0f2f5;
+}
+
+/* Grid for Services */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Footer */
+footer {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .cta a {
+    width: 90%;
+    display: block;
+    margin: 0.5rem auto;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
